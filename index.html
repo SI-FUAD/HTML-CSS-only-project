@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="icons/fontawesome-free-6.7.2-web/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Hello World!</h1>
+
+        <input type="checkbox" id="navbar_menu_toggle">
+        <label for="navbar_menu_toggle" class="fa-solid fa-bars"></label>
+        
+        <nav>
+            <ul class="navbar_menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#support">Support</a></li>
+                <li class="menu_dropdown">
+                    <a href="#">More ▾</a>
+                    <ul class="dropdown_content">
+                        <li><a href="#accordion">Accordion</a></li>
+                        <li><a href="#table">Table</a></li>
+                        <li><a href="#animation">Animation</a></li>
+                        <li><a href="#fonts">Fonts</a></li>
+                        <li><a href="#media">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+     <main>
+        <div id="date-time">
+            <i class="fa-regular fa-calendar"></i>
+            <p>Published on: April 21, 2025 at 10:30 AM</p>
+        </div>
+        <div id="home">
+            <div class="background-image">
+            <h2>This is the Home section!</h2>
+            <img src="img/img_1.jpg" alt="Loading..." class="home-image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id tincidunt dui. Suspendisse vulputate, sem eget eleifend volutpat, lectus purus viverra velit, eu sollicitudin sapien tellus at purus. Quisque ipsum nunc, varius quis iaculis vitae, tristique sed purus. Pellentesque feugiat mattis leo in ultricies. Aenean lectus enim, scelerisque nec nisl vel, commodo tincidunt elit. Sed sit amet massa felis. Quisque dapibus orci venenatis nisi interdum malesuada. Donec congue tortor eget tincidunt bibendum. Pellentesque non felis in arcu malesuada faucibus. Aliquam dapibus, lectus quis porta tincidunt, turpis nisi gravida velit, eget semper purus ante posuere urna.</p>
+            </div>
+        </section>
+        <section id="about">
+            <h2>This is the About section!</h2>
+            <p>Aliquam a ipsum bibendum, posuere ligula in, sodales ligula. Aenean eget lacus in lacus convallis feugiat. Nulla accumsan dui id diam gravida, sit amet rutrum enim venenatis. Sed rutrum elementum nunc, et tempus arcu tristique sed. Praesent volutpat neque aliquet arcu aliquam aliquam. Vivamus ornare enim ac enim posuere iaculis. Aenean quis pretium libero. Maecenas vitae mi et massa suscipit viverra. Nam massa nibh, sodales vel nisi sed, fermentum pretium libero. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris dignissim ante orci, ac vestibulum nisl bibendum ut. Vestibulum mi libero, semper vitae erat vel, viverra lobortis eros. Quisque orci metus, mollis non purus vitae, tincidunt sodales ligula. Morbi cursus hendrerit placerat.</p>
+            <p>Nam in ligula eu nisl porta cursus. Quisque in lobortis justo, et lobortis ex. In hac habitasse platea dictumst. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec placerat accumsan metus ac aliquam. Vestibulum vel sapien sit amet nunc mollis commodo sit amet id lacus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas vel diam eget diam pretium consequat.</p>
+            <p>Sed sit amet ipsum purus. Pellentesque vehicula ex dolor, bibendum consectetur ipsum aliquam at. Nullam in orci imperdiet risus auctor lacinia. Suspendisse potenti. Quisque pharetra, odio vel sollicitudin ornare, lorem dolor luctus est, eu egestas enim ex vitae sapien. Sed molestie sem vel ultrices sollicitudin. Donec vehicula non orci in auctor.</p>
+        </section>
+        <section id="contact">
+            <h2>This is the Contact section!</h2>
+            <p>In eu commodo mauris. Mauris justo leo, fermentum eu sollicitudin bibendum, dictum vel nisl. Fusce pretium ante sit amet dolor dictum, sit amet vulputate turpis interdum. Donec sollicitudin, velit a feugiat vestibulum, tellus metus eleifend velit, id porttitor arcu quam et lorem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam erat volutpat. Vivamus eget pretium metus. Aliquam erat volutpat. Vestibulum auctor eleifend nisi, a iaculis ipsum.</p>
+            <form action="#" method="post">
+
+                <!-- Upload Image -->
+                 <label for="imageUpload">Upload an Image:</label>
+                 <input type="file" id="imageUpload" name="imageUpload" accept="image/*" required>
+                 <small>Accepts image files (JPG, PNG, GIF, etc.)</small>
+
+                <!-- First Name -->
+                 <label for="firstName">First Name:</label>
+                 <input type="text" id="firstName" name="firstName" placeholder="Enter your First Name" required>
+
+                <!-- Last Name -->
+                 <label for="lastName">Last Name:</label>
+                 <input type="text" id="lastName" name="lastName" placeholder="Enter your Last Name" required>
+                 
+                <!-- Email -->
+                 <label for="email">Email Address:</label>
+                 <input type="email" id="email" name="email" placeholder="Enter your Email Address" required>
+                 <small>Format: user@example.com</small>
+                 
+                <!-- Phone -->
+                 <label for="phoneNumber">Phone Number:</label>
+                 <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Enter your Phone Number" pattern="^\+8801[3-9]\d{8}$" required>
+                 <small>Format: +8801XXXXXXXXX</small>
+
+                <!-- Password -->
+                <label for="password">Password:</label>
+                <div class="password_container">
+                    <input type="password" id="password" name="password" placeholder="Enter a strong password" minlength="8" required>
+                    <label for="show_password" class="show_password_label">
+                        <input type="checkbox" id="show_password">Show Password
+                    </label>
+                </div>
+                <small>Must have at least 8 characters</small>
+
+                <!-- Gender -->
+                  <p class="gender">Gender:</p>
+                  <label><input type="radio" name="gender" value="male">Male</label>
+                  <label><input type="radio" name="gender" value="female">Female</label>
+                  <label><input type="radio" name="gender" value="others">Others</label>
+                  <label><input type="radio" name="gender" value="rather_not_to_say">Rather Not to Say</label>
+
+                <!-- Service -->
+                   <label for="service" id="service_label">Select your desired service:</label>
+                   <select name="service" id="service">
+                    <option value="web_design">Web Design</option>
+                    <option value="web_developer">Web Developer</option>
+                    <option value="wordpress_developer">Wordpress Developer</option>
+                    <option value="seo">Search Engine Optimizer (SEO)</option>
+                    <option value="technical_support">Technical Support</option>
+                   </select>
+
+                <!-- Interests -->
+                    <p class="interests">What are you interested in?</p>
+                    <label><input type="checkbox" name="Interests" value="newsletter">Subscribe to our Newsletter</label>
+                    <label><input type="checkbox" name="Interests" value="offers">Get random Offers</label>
+                    <label><input type="checkbox" name="Interests" value="updates">Get our latest Updates</label>
+                    <label><input type="checkbox" name="Interests" value="special_events">Attend Special Events with us</label>
+                    <label><input type="checkbox" name="Interests" value="prizes">Win random prizes</label>
+                    <small>You can select multiple interests</small>
+
+                <!-- Message -->
+                     <label for="message" id="message_label">Your Message:</label>
+                     <textarea name="message" id="message" rows="5" placeholder="Enter your message here..."></textarea>
+
+                <!-- Agreement -->
+                      <label for="">
+                        <input type="checkbox" name="terms" required> I agree to the Terms and Condition.
+                      </label>
+
+                <!-- Upload a File -->
+                      <label for="fileUpload">Upload a File:</label>
+                      <input type="file" id="fileUpload" name="fileUpload" accept=".pdf, .txt" multiple required>
+                      <small>Accepts pdf and txt files only</small>
+
+                <!-- Submit -->
+                       <button type="submit" id="form_submit">Submit</button>
+            </form>
+            <button>Click Here</button>
+        </section>
+        <section id="services">
+            <h2>This is the Services section!</h2>
+            <p>Duis facilisis at neque vitae posuere. Duis mattis dui at dui cursus, non imperdiet ligula cursus. Donec nec quam dictum, venenatis nunc et, mollis dui. Ut eget posuere turpis, at consectetur nisl. Donec consectetur, quam ac tincidunt accumsan, leo tellus pulvinar metus, vel pharetra nunc odio sit amet ligula. Nulla aliquam dui sapien, sit amet venenatis elit elementum nec. Sed vitae ex varius, tincidunt risus quis, tincidunt felis.</p>
+            <p>Proin sit amet tristique ipsum. Nunc bibendum quam dolor, a pharetra neque luctus et. Mauris eget faucibus sem. Pellentesque risus tellus, tristique id vestibulum a, ultricies vel ex. Integer vestibulum finibus elit vel malesuada. Mauris id sapien aliquet, viverra felis a, placerat velit. Vivamus auctor, leo eget ullamcorper pretium, nibh nibh fringilla ante, eu efficitur quam diam porta nisi. Pellentesque non odio elit. Cras vestibulum semper dictum. Sed scelerisque eu purus nec mattis. Fusce nec quam nulla. Nulla a blandit tortor. Phasellus pellentesque ligula at consectetur ornare. Cras vehicula odio eros, nec placerat magna hendrerit sollicitudin.</p>
+            <div class="flex_container">
+                <div class="flex_item">Web Design</div>
+                <div class="flex_item">Web Development</div>
+                <div class="flex_item">Search Engine Optimization (SEO)</div>
+            </div>
+        </section>
+        <section id="support">
+            <h2>This is the Support section!</h2>
+            <p>Aenean molestie, urna et feugiat dapibus, nibh orci lacinia ligula, vitae finibus leo nunc quis ante. Nulla sed accumsan odio. Donec tincidunt dignissim rhoncus. Integer ullamcorper ligula ac risus vestibulum, quis dignissim dolor fermentum. Phasellus quam lorem, vulputate eget viverra id, placerat a velit. Nulla quis lacinia orci. Nunc eu sem at risus semper condimentum. Cras dui augue, mattis ac euismod vel, hendrerit ac diam. Duis cursus condimentum justo, ut placerat arcu porttitor vitae. Etiam aliquam erat ac sem ultricies, id tempor leo cursus.</p>
+            <div class="grid_container">
+                <div class="grid_item">Help Desk</div>
+                <div class="grid_item">Live Chat</div>
+                <div class="grid_item">Email Support</div>
+                <div class="grid_item">Remote Access</div>
+                <div class="grid_item">Ticketing System</div>
+                <div class="grid_item">Community Forum</div>
+            </div>
+        </section>
+
+        <!-- Accordion -->
+         <div id="accordion" class="accordion">
+            <h2>Accordion Samples</h2>
+            <div class="accordion_item">
+                <input type="checkbox" id="item_1" class="accordion_toggle">
+                <label for="item_1" class="accordion_header">Section 1</label>
+                <div class="accordion_content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla aliquam mollis diam, sed tristique nulla malesuada molestie. Nam sed arcu vel eros ultricies ultrices. Phasellus vulputate libero lacus, sit amet placerat orci scelerisque ullamcorper. Etiam odio mi, dignissim vitae sagittis id, suscipit eu enim. Morbi fermentum ante quis est malesuada volutpat. Integer ultrices nulla sed felis vulputate finibus. Nam dictum feugiat nisl, et suscipit massa. Donec porta elit ac dolor sagittis auctor. Cras vel erat arcu. Cras venenatis sapien nec pretium efficitur.</p>
+                </div>
+            </div>
+
+            <div class="accordion_item">
+                <input type="checkbox" id="item_2" class="accordion_toggle">
+                <label for="item_2" class="accordion_header">Section 2</label>
+                <div class="accordion_content">
+                    <p>Nunc consectetur, lorem id fermentum imperdiet, leo nisi aliquet ex, sit amet fringilla est nulla at leo. Mauris tempus vestibulum ipsum, pellentesque iaculis sapien hendrerit a. Nunc euismod urna urna, a ultricies odio aliquet a. Praesent porttitor aliquam nibh, vel auctor nulla laoreet sed. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed tincidunt vel ipsum at iaculis. Suspendisse malesuada ornare dolor, a pulvinar sem molestie vel. Cras tempus lorem et urna tempus sodales. Quisque at ligula eget ipsum tristique lacinia vitae quis nisl. Donec rutrum dictum aliquet.</p>
+                </div>
+            </div>
+
+            <div class="accordion_item">
+                <input type="checkbox" id="item_3" class="accordion_toggle">
+                <label for="item_3" class="accordion_header">Section 3</label>
+                <div class="accordion_content">
+                    <p>Fusce suscipit nibh molestie malesuada volutpat. Integer et facilisis leo. Mauris vel nulla eget eros porttitor tristique non sed nisi. Cras scelerisque ultrices magna. Nam facilisis dapibus efficitur. Proin vehicula, diam vitae egestas volutpat, felis metus aliquet risus, quis pharetra turpis dui non quam. Curabitur consectetur porta leo, vel rutrum felis. Nulla condimentum est vitae dolor venenatis, ut dignissim urna luctus. Praesent ac sollicitudin nisi. Morbi aliquam volutpat convallis. Donec nunc odio, tincidunt et tempor sit amet, lacinia sit amet dui. Duis vulputate eleifend egestas. Cras scelerisque sit amet sapien et lobortis. Phasellus ultrices, tellus convallis viverra feugiat, felis enim consequat tortor, vel accumsan odio leo sed massa. Nulla facilisi. Sed facilisis, nunc vitae ultricies luctus, sem velit pharetra lacus, a varius odio tortor ac justo.</p>
+                    <p>Nunc cursus tortor ac fermentum facilisis. Vivamus vulputate ligula ut sapien finibus, id pretium nisi efficitur. Etiam faucibus suscipit dapibus. Quisque porttitor consectetur tellus, nec dictum lorem venenatis ac. Nullam sit amet tincidunt magna. Fusce varius nibh ipsum, ut condimentum nisi porttitor id. Pellentesque placerat arcu vel ligula commodo, sed varius est suscipit. Nullam posuere ligula at lacus egestas placerat. Mauris erat metus, fermentum sit amet libero vel, lacinia fermentum nulla. Vestibulum at gravida massa. Maecenas at fringilla arcu. Curabitur ac massa scelerisque, ornare orci a, lobortis odio.</p>
+                </div>
+            </div>
+
+            <div class="accordion_item">
+                <input type="checkbox" id="item_4" class="accordion_toggle">
+                <label for="item_4" class="accordion_header">Section 4</label>
+                <div class="accordion_content">
+                    <p>Suspendisse lobortis nec sem ut semper. Curabitur sed est scelerisque, imperdiet nunc sed, hendrerit dolor. Duis et ultricies ligula. Proin quis ex id ante eleifend ornare sit amet sed sem. Nam id metus a nisl sagittis viverra. Aenean tempor lacinia orci. Duis lobortis, ante at porta pharetra, ex nulla luctus tellus, vitae vehicula tellus neque ut quam. Proin nec commodo lorem, id feugiat mauris. Morbi ut iaculis quam. Nam a euismod mauris, quis imperdiet sem. Morbi fermentum dolor at euismod vestibulum. Praesent egestas arcu ac est consequat, ut luctus orci accumsan. Sed congue vitae diam condimentum porta. Fusce semper enim leo, fermentum auctor nulla gravida sit. Maecenas sit amet massa sit amet magna porttitor ornare. Pellentesque id tempor tellus. Sed interdum luctus sodales. Praesent ac ipsum hendrerit augue imperdiet sollicitudin. Proin pellentesque erat elit. Aliquam ex ante, mollis vitae sagittis vitae, aliquam eu mauris. Aenean laoreet risus sapien, sed finibus lorem auctor vel.</p>
+                </div>
+            </div>
+         </div>
+
+        <!-- Table -->
+         <section id="table">
+            <h2>Shopping List</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Apple</td>
+                        <td>$1</td>
+                        <td>10</td>
+                        <td>$10</td>
+                    </tr>
+                    <tr>
+                        <td>Banana</td>
+                        <td>$0.5</td>
+                        <td>20</td>
+                        <td>$10</td>
+                    </tr>
+                    <tr>
+                        <td>Orange</td>
+                        <td>$1.2</td>
+                        <td>15</td>
+                        <td>$18</td>
+                    </tr>
+                    <tr>
+                        <td>Cherry</td>
+                        <td>$2</td>
+                        <td>12</td>
+                        <td>$24</td>
+                    </tr>
+                    <tr>
+                        <td>Lemon</td>
+                        <td>$0.5</td>
+                        <td>10</td>
+                        <td>$5</td>
+                    </tr>
+                    <tr>
+                        <td>Kiwi</td>
+                        <td>$2</td>
+                        <td>15</td>
+                        <td>$30</td>
+                    </tr>
+                    <tr>
+                        <td>Mango</td>
+                        <td>$3</td>
+                        <td>20</td>
+                        <td>$60</td>
+                    </tr>
+                    <tr>
+                        <td>Grapes</td>
+                        <td>$0.5</td>
+                        <td>50</td>
+                        <td>$25</td>
+                    </tr>
+                    <tr class="total_row">
+                        <td colspan="3">Total</td>
+                        <td>$182</td>
+                    </tr>
+                </tbody>
+            </table>
+         </section>
+        
+        <!-- Animation -->
+        <section id="animation">
+            <h2>Animation</h2>
+            <div id="animating_field">
+                <div id="animating">
+                    <p id="animating_text">Hello</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fonts -->
+        <section id="fonts">
+            <h2>Fonts</h2>
+            <p id="font_p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis fermentum turpis, eget accumsan augue bibendum mattis. Etiam pulvinar molestie ligula, quis efficitur dui laoreet et. <strong>Maecenas id turpis ac elit rutrum vehicula.</strong> Donec maximus orci nec efficitur elementum. Nulla lobortis quam eu porta gravida. Aliquam dapibus sit amet quam a viverra. In vulputate vel velit ac vehicula. Duis congue tempus auctor.</p>
+            <p id="font_p2">Morbi gravida velit eu mauris euismod, et dapibus dui euismod. Fusce faucibus quam eget malesuada gravida. Aliquam rutrum sem nisi, quis vulputate urna ultricies eu. Nullam non ante vestibulum, rhoncus risus nec, congue lectus. Phasellus eu mollis tortor. Sed vitae vestibulum velit, in sodales diam. Curabitur sodales a sem eu porttitor. Integer ut fermentum justo. Donec aliquam mi vel purus blandit consectetur. In elementum ex nec vulputate iaculis. Sed et luctus turpis, ut blandit urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vestibulum dui purus, bibendum non dictum scelerisque, tincidunt ut ipsum. In non nunc nisl.</p>
+            <p id="font_p3">Ut ultricies, justo id scelerisque accumsan, tortor sem placerat ex, eu laoreet est purus sed sapien. Sed tellus risus, tempus et neque at, egestas fringilla lectus. Sed tempor faucibus pulvinar. Maecenas quis est dui. Morbi molestie, metus vitae gravida luctus, arcu nisi gravida dui, sollicitudin convallis leo sem vitae lacus. Aenean ac enim ac quam tristique varius. Aenean varius enim id ullamcorper lobortis. Sed quis hendrerit lorem, eu posuere quam. Vestibulum luctus et risus sed lacinia. Phasellus rhoncus blandit accumsan. Nullam a odio non felis pulvinar feugiat. Etiam egestas nunc ac erat imperdiet, quis porta magna finibus. Vestibulum sit amet quam quis orci malesuada venenatis eu et turpis. Aliquam cursus enim quis risus efficitur, interdum eleifend elit ultricies. Donec non ultricies lacus.</p>
+            <p id="font_p4">Duis hendrerit libero nisi, sit amet sodales dolor porta molestie. Phasellus pellentesque lacus non gravida porta. Proin accumsan mi at elit elementum hendrerit. Maecenas orci sem, egestas vitae sapien vitae, interdum fermentum erat. Suspendisse lorem dui, vulputate in ligula in, vulputate dignissim neque. Nunc viverra sodales magna, eget fermentum purus viverra non. Ut sed mollis dui.</p>
+            <p id="font_p5">Maecenas pellentesque vulputate iaculis. Aliquam ac lacus aliquet, facilisis sem in, euismod erat. Vestibulum eleifend ligula vitae rhoncus ullamcorper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Fusce massa enim, ornare id commodo id, fringilla sit amet odio. Vivamus eu blandit tellus. Vestibulum sed sem nisl. Suspendisse sem nulla, pulvinar in dui sit amet, vehicula semper leo. Nullam et neque lacus. Vestibulum lectus mauris, placerat egestas dui eget, facilisis molestie ante. Vivamus nec lorem semper, convallis enim eget, vehicula turpis. Cras ut quam eu ante pharetra pretium.</p>
+            <p id="font_p6">Cras euismod leo ac diam laoreet malesuada. Integer eleifend vel diam nec finibus. In lobortis eget quam nec dictum. Aenean rutrum diam vel urna iaculis laoreet. Etiam id nibh eleifend, vulputate nulla nec, dictum libero. Integer porttitor sapien eu mi porttitor, ac dictum odio malesuada. Maecenas molestie, justo eu porta mattis, ligula mauris fringilla libero, non feugiat metus magna quis quam. Proin euismod sit amet justo sit amet viverra. Morbi tristique non sem sit amet sagittis. Sed luctus tellus vel erat cursus interdum. Fusce vitae venenatis tellus, sit amet ultricies lorem. Nunc porttitor quam eget nisi ultricies laoreet. Suspendisse tellus lacus, varius id leo a, iaculis congue libero. In hac habitasse platea dictumst. Sed pellentesque augue feugiat risus vehicula, nec vulputate nisi hendrerit.</p>
+            <p id="font_p7">In tincidunt tellus sed erat fringilla convallis. Cras sit amet elit pellentesque, vehicula metus nec, faucibus ligula. Pellentesque at lobortis quam, non elementum dui. Donec finibus massa purus, vel gravida enim tincidunt nec. Ut non ornare ligula. Pellentesque sapien velit, aliquam ultrices vulputate a, tempus vel quam. In lacus erat, laoreet vel egestas sed, commodo nec metus. Cras vel libero sit amet libero consequat tincidunt a ut nisi. Maecenas ut velit vitae sem ornare interdum lobortis a odio. Morbi at odio risus. Nullam ut scelerisque sem, vel mattis justo. Quisque commodo vestibulum sem, vitae sodales diam condimentum non. Sed diam leo, venenatis id blandit a, aliquam id enim. Nulla orci neque, dictum ultricies placerat nec, posuere vitae mi.</p>
+            <p id="font_p8">Donec at mattis mi. Donec ultrices interdum orci sit amet laoreet. Nulla ornare nisl enim, congue cursus diam egestas ac. Etiam finibus ultrices mauris. Nam ultrices consequat magna, a ullamcorper urna. Vestibulum ac erat orci. Aenean efficitur pretium eleifend. Nullam erat eros, tincidunt ac elit eget, sodales aliquet risus. Vestibulum gravida posuere ante. Sed iaculis dui vel sem ullamcorper euismod. Praesent ac metus eget diam malesuada congue id ac lacus. Sed turpis arcu, dictum eget nunc at, elementum rutrum augue.</p>
+            <p id="font_p9">Nulla turpis libero, lacinia ac semper a, tincidunt eget mi. Mauris viverra, turpis vitae imperdiet venenatis, tortor eros tempus ipsum, vitae efficitur ipsum lorem et lacus. Fusce faucibus justo ultricies diam cursus, a porta enim pretium. Integer eu leo eget eros venenatis lacinia nec at enim. Suspendisse tristique dui ut arcu tempus, vel mollis nunc porta. Maecenas fringilla eu dui eu euismod. Praesent et massa condimentum, accumsan est ac, ullamcorper ante. Praesent feugiat, nulla at maximus ultricies, nibh felis efficitur ipsum, ac scelerisque lectus risus nec neque. Nam finibus urna velit, quis viverra ligula suscipit sed.</p>
+            <p id="font_p10">Aenean quis aliquet nibh, et malesuada nulla. Phasellus dignissim, enim in facilisis cursus, massa sapien mollis odio, eget pulvinar diam turpis ut lorem. In dictum molestie lectus ut interdum. Duis odio est, auctor at bibendum non, vestibulum finibus nisl. Mauris pellentesque tellus blandit massa finibus, quis tincidunt est lacinia. Cras ac tortor odio. Vestibulum ac justo scelerisque, sagittis sapien id, pharetra nisl. Aenean vel nisl tellus. Aenean dapibus turpis odio, non ullamcorper velit porta sit amet. Vivamus suscipit lectus quam, eget sodales velit volutpat nec. Nullam ipsum sapien, tincidunt nec nibh vitae, tincidunt posuere purus. Ut id ligula ac nisi porta elementum ut vitae lectus. Nulla feugiat, mi eu finibus faucibus, urna sapien pulvinar elit, a iaculis odio lectus semper lorem.</p>
+            <p id="font_p11">Pellentesque commodo, libero at dignissim aliquam, tellus elit fermentum dui, eget cursus ex mi ut nisi. In finibus ut elit vel hendrerit. In non urna a nisi pellentesque convallis in laoreet odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed eleifend libero ac congue auctor. In sit amet metus at massa tristique consequat. In viverra et dolor non facilisis. Fusce quam est, lacinia et laoreet interdum, ullamcorper et libero. Nulla mi neque, rutrum id tristique sed, consectetur et felis.</p>
+            <p id="font_p12">Vestibulum et magna eget massa ultricies sodales aliquet in nisi. Integer a nisl ornare risus convallis egestas. Phasellus sed aliquam sapien, sit amet mollis diam. Sed purus libero, commodo eu dapibus at, lobortis a justo. Aliquam nisi ligula, elementum nec faucibus et, molestie sed quam. Suspendisse ut feugiat magna. Maecenas tortor nisi, commodo mollis est auctor, consectetur ullamcorper lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; In elementum at urna at congue. Donec aliquet faucibus erat et egestas.</p>
+        </section>
+
+         <!-- Media -->
+          <section id="media">
+            <h2>Media Section</h2>
+
+            <h3>Video</h3>
+            <video width="400" height="300" controls>
+                <source src="media/5538137-hd_1920_1080_25fps.mp4" type="video/mp4">
+                This video tag is not supported in this browser!!
+            </video>
+
+            <h3>Audio</h3>
+            <audio controls>
+                <source src="media\file_example_MP3_700KB.mp3" type="audio/mp3">
+                This audio tag is not supported in this browser!!
+            </audio>
+
+            <h3>Youtube Video</h3>
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LXb3EKWsInQ?si=UiSAfDLQH7IVnZ_A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </section>
+        
+        <!-- Pagination -->
+         <div id="pagination" class="pagination_container">
+            <ul class="pagination_list">
+                <li class="previous"><a href="#">Previous</a></li>
+                <li class="page_number"><a href="#">1</a></li>
+                <li class="page_number active"><a href="#">2</a></li>
+                <li class="page_number"><a href="#">3</a></li>
+                <li class="page_number"><a href="#">4</a></li>
+                <li class="page_number"><a href="#">5</a></li>
+                <li class="next"><a href="#">Next</a></li>
+            </ul>
+         </div>
+     </main>
+
+     <!-- Footer Section -->
+      <footer>
+        <p>© 2025 My First Project. All rights reserved.</p>
+      </footer>
+</body>
+</html>
