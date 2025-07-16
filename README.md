@@ -40,7 +40,9 @@ This is a fully responsive and structured HTML/CSS website created as a solo lea
 - Organizing large projects with multiple sections and features
 
 ## 🌐 Live Preview
-[Click to View on GitHub Pages](https://SI-FUAD.github.io/HTML-CSS-only-project/)
+You can view the project live at:
+
+👉 [https://si-fuad.github.io/HTML-CSS-only-project/](https://si-fuad.github.io/HTML-CSS-only-project/)
 
 ---
 
