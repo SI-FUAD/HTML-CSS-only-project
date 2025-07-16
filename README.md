@@ -1,52 +1,73 @@
 # HTML-CSS-only-project
-A full responsive HTML/CSS personal project built to practice layout, form, and multimedia handling.
 
-This is a fully responsive and structured HTML/CSS website created as a solo learning project. It showcases web layout, forms, animations, multimedia, and modern UI elements — all using **just HTML and CSS**.
+A fully responsive HTML/CSS personal project built to practice layout, form handling, and multimedia presentation — all using **just HTML and CSS**.
 
-## 🚀 Features
-- Responsive design with mobile support (media queries)
-- Custom navigation bar with dropdown menus
-- Form with image, file, password, and radio/checkbox inputs
-- Embedded video, audio, and YouTube iframe
-- Table with dynamic styles
-- Accordion UI using only HTML/CSS
-- Grid and Flexbox layouts
-- On-scroll animations
-
-## 📁 Technologies Used
-- HTML5
-- CSS3 (Flexbox, Grid, Variables, Media Queries)
-- Google Fonts & Custom Fonts
-- FontAwesome Icons
-
-## 📸 Screenshot
-
-**Desktop version**
-
-<img width="1897" height="906" alt="image" src="https://github.com/user-attachments/assets/f1049037-acc1-4c8f-8c38-72e7361f1918" />
-
-**Tablet version**
-
-<img width="1245" height="907" alt="image" src="https://github.com/user-attachments/assets/001e21a5-777b-4e2b-8f5e-5a73d7ed537e" />
-
-**Mobile version**
-
-<img width="606" height="906" alt="image" src="https://github.com/user-attachments/assets/928791b8-9173-4fc2-8b21-8926f66e3c8b" />
-
-## 📄 What I Learned
-- Building layouts with semantic HTML
-- Advanced form creation and validation
-- Styling with CSS (responsive design, transitions, animations)
-- Organizing large projects with multiple sections and features
-
-## 🌐 Live Preview
-You can view the project live at:
-
-👉 [https://si-fuad.github.io/HTML-CSS-only-project/](https://si-fuad.github.io/HTML-CSS-only-project/)
+This solo learning project demonstrates modern frontend skills, including layout techniques, interactive forms, animations, media integration, and responsive design.
 
 ---
 
-## 📌 Status
-✅ Completed — open for further improvements or JavaScript enhancements.
+## 🚀 Features
+
+- Responsive design with media queries (desktop, tablet, mobile)
+- Custom navigation bar with dropdown menus
+- Structured HTML form with various input types (file, password, radio, checkbox)
+- Embedded video, audio, and YouTube iframe
+- Styled table with alternating rows and total calculation
+- Accordion UI built purely with HTML and CSS
+- Flexbox and Grid-based section layouts
+- On-scroll hover and animation effects
+
+---
+
+## 📁 Technologies Used
+
+- **HTML5**
+- **CSS3**
+  - Flexbox
+  - Grid
+  - CSS Variables
+  - Media Queries
+- **Google Fonts**
+- **FontAwesome Icons**
+- **Custom Web Fonts**
+
+---
+
+## 📸 Screenshots
+
+**🖥️ Desktop Version**
+
+<img width="1897" height="906" alt="desktop version" src="https://github.com/user-attachments/assets/f1049037-acc1-4c8f-8c38-72e7361f1918" />
+
+**📱 Tablet Version**
+
+<img width="1245" height="907" alt="tablet version" src="https://github.com/user-attachments/assets/001e21a5-777b-4e2b-8f5e-5a73d7ed537e" />
+
+**📲 Mobile Version**
+
+<img width="606" height="906" alt="mobile version" src="https://github.com/user-attachments/assets/928791b8-9173-4fc2-8b21-8926f66e3c8b" />
+
+---
+
+## 📄 What I Learned
+
+- Structuring a full multi-section website using semantic HTML
+- Responsive layout techniques for all screen sizes
+- Form creation, validation, and user-friendly design
+- Embedding and styling media content (audio, video, iframe)
+- Organizing large projects and maintaining clean code
+
+---
+
+## 🌐 Live Preview
+
+View the live project here:  
+👉 **[https://si-fuad.github.io/HTML-CSS-only-project/](https://si-fuad.github.io/HTML-CSS-only-project/)**
+
+---
+
+## 📌 Project Status
+
+✅ **Completed** — future improvements may include JavaScript enhancements or backend integration.
 
 ---
