@@ -22,12 +22,15 @@ This is a fully responsive and structured HTML/CSS website created as a solo lea
 ## 📸 Screenshot
 
 **Desktop version**
+
 <img width="1897" height="906" alt="image" src="https://github.com/user-attachments/assets/f1049037-acc1-4c8f-8c38-72e7361f1918" />
 
 **Tablet version**
+
 <img width="1245" height="907" alt="image" src="https://github.com/user-attachments/assets/001e21a5-777b-4e2b-8f5e-5a73d7ed537e" />
 
 **Mobile version**
+
 <img width="606" height="906" alt="image" src="https://github.com/user-attachments/assets/928791b8-9173-4fc2-8b21-8926f66e3c8b" />
 
 ## 📄 What I Learned
